@@ -29,7 +29,7 @@ class BasePlusCommissionEmployee extends CommissionEmployee{
 
   public function display(){
     echo "Employee Details: " ."\n";
-    echo "--------------------------------------"."\n";
+    echo "--------------------------------------------"."\n";
     echo "Name: " . $this->getFirstname() . " " . $this->getLastname()."\n";
     echo "Social Security Number: " . $this->getSocialsecuritynumber()."\n";
     echo "Gross Sales: " .  number_format($this->getGrosssales(),2)."\n";
@@ -48,4 +48,8 @@ $basePlusCommisionEmployee = new BasePlusCommissionEmployee("Samuel", "Ampadu","
 
 
 echo "Commision-Only Employee Details: " . "\n";
+$commisionOnlyEmployee->display();
+
+echo "\n\nBase Salary + Commision Employee Details: " . "\n";
+$basePlusCommisionEmployee->display();
 ?>

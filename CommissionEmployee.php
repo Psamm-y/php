@@ -69,7 +69,7 @@ public function setCommissionrate($commissionRate) {
 
   public function display(){
     echo "Employee Details: " ."\n";
-    echo "--------------------------------------"."\n";
+    echo "--------------------------------------------"."\n";
     echo "Name: " . $this->getFirstname() . " " . $this->getLastname()."\n";
     echo "Social Security Number: " . $this->getSocialsecuritynumber()."\n";
     echo "Gross Sales: " .  number_format($this->getGrosssales(),2)."\n";
