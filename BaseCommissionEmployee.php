@@ -53,7 +53,7 @@ $commisionOnlyEmployee->display();
 echo "\n\nBase Salary + Commision Employee Details: " . "\n";
 $basePlusCommisionEmployee->display();
 
-
+//Base salry updated
 $basePlusCommisionEmployee->setBaseSalary(6000);
 
 $basePlusCommisionEmployee->display();
