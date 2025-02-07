@@ -14,6 +14,7 @@ public function __construct($name, $employeeId, $salary){
 }
 
 public function calculatePay(){
- echo "Full Time Employee: ". getSalary;
+ return "Full Time Employee: ". getSalary()."\n";
+}
 }
 ?>
