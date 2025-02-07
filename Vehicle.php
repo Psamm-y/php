@@ -1,5 +1,5 @@
 <?php
-  class Vehicle{
+  abstract class Vehicle{
     protected $vehicleId;
     protected $model;
     protected $fuelLevel;
@@ -14,5 +14,7 @@
       $this->fuelLevel += $litres;
       echo "Refueled $litres litres. New fuel Level: $this->fuelLevel\n";
     }
+
+    abstract public function calculateRange();
   }
 ?>

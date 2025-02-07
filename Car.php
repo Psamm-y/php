@@ -23,4 +23,6 @@ $car->refuel(10);
 
 //Transportation manager object
 $manager = new TransportationManager();
+
+$manager->operateVehicle($car);
 ?>
