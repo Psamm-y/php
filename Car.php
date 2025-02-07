@@ -14,4 +14,13 @@ class Car extends Vehicle{
     return range;
   }
 }
+
+//car objecct
+$car = new Car("C001","Sedan",50,15);
+
+//refuel Sedan
+$car->refuel(10);
+
+//Transportation manager object
+$manager = new TransportationManager();
 ?>
