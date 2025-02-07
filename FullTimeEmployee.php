@@ -16,5 +16,15 @@ public function __construct($name, $employeeId, $salary){
 public function calculatePay(){
  return "Full Time Employee: ". getSalary()."\n";
 }
+
+public function displayDetails(){
+  echo "Name: $this->name\n";
+  echo "Employee ID: $this->employeeId\n";
+  echo "Salary: $this->salary\n";
+  
 }
+}
+
+//full time employee object
+$fullTimeEmployee= new FullTimeEmployee("John", "F001", 50000);
 ?>
